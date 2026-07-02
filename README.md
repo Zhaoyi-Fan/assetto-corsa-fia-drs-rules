@@ -37,8 +37,20 @@ first DRS lap, race-only, lapped-car grant (FIA default: on), and an optional
 
 ## Install
 
-Copy this folder into `…/assettocorsa/apps/lua/vrc_fa25_drs_rules/`, enable it in CSP, and open
-its window on track.
+### Option A — download (recommended)
+
+1. Download `vrc_fa25_drs_rules.zip` from the [latest release](../../releases/latest).
+2. Extract it into `…\assettocorsa\apps\lua\`. You should end up with
+   `…\assettocorsa\apps\lua\vrc_fa25_drs_rules\manifest.ini` (and the `.lua` next to it).
+3. In game (CSP with Lua apps enabled), open the apps sidebar and add the
+   **VRC FA25 DRS Rules** window on track.
+
+### Option B — from the repo
+
+Put `manifest.ini` and `vrc_fa25_drs_rules.lua` into a folder named **exactly**
+`vrc_fa25_drs_rules` under `…\assettocorsa\apps\lua\`. The folder name matters — GitHub's
+"Download ZIP" extracts as `assetto-corsa-fia-drs-rules-main`, which CSP will not load; rename
+it or use Option A.
 
 ## Notes
 
